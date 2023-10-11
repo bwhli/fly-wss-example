@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fly-wss-example"
+version = "0.1.0"
+description = ""
+authors = ["Brian Li <brian@brianli.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.103.2"}
+hypercorn = "^0.14.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
